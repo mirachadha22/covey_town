@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+.whiteboard {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.colorOptions {
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------------- COLORS -------------------- */
+
+.color {
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.color.black {
+  width: 10%;
+  height: 10%;
+  margin: 20px;
+  background-color: white;
+}
+.color.red {
+  width: 10%;
+  height: 10%;
+  margin: 20px;
+  background-color: white;
+}
+.color.green {
+  width: 10%;
+  height: 10%;
+  margin: 20px;
+  background-color: white;
+}
+.color.blue {
+  width: 10%;
+  height: 10%;
+  margin: 20px;
+  background-color: white;
+}
+.color.yellow {
+  width: 10%;
+  height: 10%;
+  margin: 20px;
+  background-color: white;
+}
+.color.white {
+  width: 6%;
+  height: 6%;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+}
+
+/* -------------------- PEN SIZE -------------------- */
+
+.otherOptions {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  display: inline-block;
+}
+
+.extra {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.extra.increase {
+  height: 48px;
+  width: 48px;
+  background-color: lightgray;
+  border: none;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 48px;
+  text-decoration: none;
+  margin: 10px;;
+  border-radius: 12px;
+}
+
+.extra.decrease {
+  height: 48px;
+  width: 48px;
+  background-color: lightgray;
+  border: none;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 48px;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 10px;;
+  border-radius: 12px;
+}
+
+/* -------------------- DOWNLOAD & CLEAR -------------------- */
+
+.extra.download {
+
+  height: 48px;
+  width: 150px;
+
+  background-color: lightgray;
+  border: none;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 48px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;;
+  border-radius: 12px;
+}
+
+.extra.clear {
+
+  height: 48px;
+  width: 100px;
+
+  background-color: lightgray;
+  border: none;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 48px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;;
+  border-radius: 12px;
+}
